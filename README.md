@@ -1,2 +1,22 @@
 # Decision_tree_from_scratch
-This script builds a regression decision tree from scratch using NumPy. It generates synthetic linear data with noise, recursively finds splits maximizing variance reduction, and predicts outputs. Includes visualization of predictions compared to the training data.
+
+This project implements a simple regression decision tree without external libraries for modeling. It generates synthetic linear data, builds a tree recursively to minimize variance, and visualizes predictions.
+
+## Features
+
+- Generates dummy regression data
+- Calculates variance reduction for splits
+- Recursively builds tree nodes
+- Makes predictions on new data
+- Plots regression predictions
+
+## Requirements
+
+- Python 3
+- NumPy
+- Matplotlib
+
+## How to Run
+
+1. Install dependencies:
+
